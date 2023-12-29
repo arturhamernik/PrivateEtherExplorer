@@ -7,7 +7,7 @@
 const config = {
     ChainPortNo: 8545,
     ChainIpAddr: "localhost", // IP address of the system running private ethereum chain
-    WebPortNo: 8546
+    WebPortNo: 9546
 };
 
 module.exports = config
