@@ -89,9 +89,9 @@ app.get("/api/getAllBlocks", function (req, res) {
     var blocks = [];
     for (var i = 0; i < n; i++) {
         var block = web3.eth.getBlock(i, true);
-        if (block.transactions.length) {
+        //if (block.transactions.length) {
             blocks.push(block);
-        }
+        //}
     }
 
     var strBlocks = JSON.stringify(blocks);
